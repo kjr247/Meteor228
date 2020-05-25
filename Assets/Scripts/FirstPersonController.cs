@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿/* https://www.youtube.com/watch?v=WsE4BgZMjK8 */
+using UnityEngine;
 using System.Collections;
 
 [RequireComponent (typeof (GravityBody))]
@@ -22,7 +23,7 @@ public class FirstPersonController : MonoBehaviour {
 	
 	void Awake() {
 		// Cursor.lockState = CursorLockMode.Locked;
-		// Cursor.visible = false;
+		Cursor.visible = false;
 		cameraTransform = Camera.main.transform;
 		rigidbody = GetComponent<Rigidbody> ();
 	}
@@ -30,10 +31,10 @@ public class FirstPersonController : MonoBehaviour {
 	void Update() {
 		
 		// Look rotation:
-		// transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * mouseSensitivityX);
-		// verticalLookRotation += Input.GetAxis("Mouse Y") * mouseSensitivityY;
-		// verticalLookRotation = Mathf.Clamp(verticalLookRotation,-60,60);
-		// cameraTransform.localEulerAngles = Vector3.left * verticalLookRotation;
+		transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * mouseSensitivityX);
+		verticalLookRotation += Input.GetAxis("Mouse Y") * mouseSensitivityY;
+		verticalLookRotation = Mathf.Clamp(verticalLookRotation,-60,60);
+		cameraTransform.localEulerAngles = Vector3.left * verticalLookRotation;
 		
 		// Calculate movement:
 		float inputX = Input.GetAxisRaw("Horizontal");

@@ -42,6 +42,9 @@
      <Compile Include="Assets\Scripts\GravityAttractor.cs" />
      <Compile Include="Assets\Scripts\GravityBody.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
+     <None Include="Assets\Samples\Polybrush\1.0.1\Shader Examples (Standard)\Shader\NewSurfaceShader.shader" />
+     <None Include="Assets\Samples\Polybrush\1.0.1\Shader Examples (Standard)\Shader\StandardVertexColor.shader" />
+     <None Include="Assets\Samples\Polybrush\1.0.1\Shader Examples (Standard)\Shader\StandardTextureBlend.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.13f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -596,6 +599,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush">
+        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
