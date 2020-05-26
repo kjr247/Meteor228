@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{16a0f6e9-512e-de0b-bade-0af8bebf4684}</ProjectGuid>
+    <ProjectGuid>{c6481d86-f540-066c-fd1c-251439643e1a}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Attractor.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\GravityAttractor.cs" />
      <Compile Include="Assets\Scripts\GravityBody.cs" />
+     <Compile Include="Assets\Scripts\Minimap.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <None Include="Assets\Samples\Polybrush\1.0.1\Shader Examples (Standard)\Shader\NewSurfaceShader.shader" />
      <None Include="Assets\Samples\Polybrush\1.0.1\Shader Examples (Standard)\Shader\StandardVertexColor.shader" />
@@ -574,37 +574,37 @@
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.13f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Polybrush">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Polybrush.Editor">
-        <HintPath>/Users/kylejacksonrebstock/Projects/New Unity Project (1)/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>/Users/kylejacksonrebstock/Projects/personal/Meteor:Planet/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
