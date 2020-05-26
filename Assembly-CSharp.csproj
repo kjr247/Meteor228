@@ -37,11 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\DestroySelf.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\GravityAttractor.cs" />
      <Compile Include="Assets\Scripts\GravityBody.cs" />
      <Compile Include="Assets\Scripts\Minimap.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\Scripts\SpawnMeteors.cs" />
      <None Include="Assets\Samples\Polybrush\1.0.1\Shader Examples (Standard)\Shader\NewSurfaceShader.shader" />
      <None Include="Assets\Samples\Polybrush\1.0.1\Shader Examples (Standard)\Shader\StandardVertexColor.shader" />
      <None Include="Assets\Samples\Polybrush\1.0.1\Shader Examples (Standard)\Shader\StandardTextureBlend.shader" />
